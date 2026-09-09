@@ -41,7 +41,7 @@ local menuNames = {
 
 local leftMenuIcons = {
 
-    ["MAIN"] = "rbxassetid://12252418253",
+    ["MAIN"] = "rbxassetid://ID_AQUI",
     ["ESP"] = "rbxassetid://ID_AQUI",
     ["COMBATE"] = "rbxassetid://ID_CALAVERA",
     ["GAMEPASS"] = "rbxassetid://ID_AQUI",
@@ -460,7 +460,7 @@ local noToggleButtons = {
     ["OBTENER SHIFTLOCK"] = true,
     ["TP A JUGADOR"] = true,
     ["MULTI SALTOS INFINITOS"] = true,
-    ["SEMI-INMUNE"] = true,
+    ["MAS ESPACIO PARA EMOTES"] = true,
     ["AUTO COMPLETAR"] = true,
     ["TP TO PLAYER"] = true,
     ["FLING PLAYER"] = true,
@@ -1048,9 +1048,10 @@ local function createMenuButton(parent,text,y,callback)
 
     textGlow.Transparency = 0.2
 
-    textGlow.Color =
-        configuredColor
-        or Color3.fromRGB(255,255,255)
+    textGlow.Color = Color3.fromRGB(255,255,255)
+    -- PONER ESTO SI QUIERES QUE LOS BORDES SEAN DEL COLOR DEO TEXTO
+    -- configuredColor
+    --   or Color3.fromRGB(255,255,255)
 
     textGlow.Parent = b
 
