@@ -41,7 +41,7 @@ local menuNames = {
 
 local leftMenuIcons = {
 
-    ["MAIN"] = "rbxassetid://ID_AQUI",
+    ["MAIN"] = "rbxassetid://12252418253",
     ["ESP"] = "rbxassetid://ID_AQUI",
     ["COMBATE"] = "rbxassetid://ID_CALAVERA",
     ["GAMEPASS"] = "rbxassetid://ID_AQUI",
