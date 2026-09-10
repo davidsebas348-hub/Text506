@@ -218,7 +218,7 @@ local numericBoxes = {
     ["FOV SIZE"] = true,
     ["BULLET SIZE"] = true,
     ["1 = 20"] = true,
-    ["VELOCIDAD DE EL DISPARO"] = true,
+    ["CAMBIAR FPS"] = true,
     ["DAÑO DE EL DISPARO"] = true,
     ["ESCRIBE EL VALOR QUE QUIERES TENER"] = true,
     ["DAÑO"] = true,
