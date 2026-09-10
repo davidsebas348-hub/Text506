@@ -625,9 +625,9 @@ local textboxButtons = {
         url = "https://raw.githubusercontent.com/davidsebas348-hub/Text433/refs/heads/main/Text433.lua"
     },
 
-    ["1 = 20"] = {
-        variable = "Timer",
-        url = "https://raw.githubusercontent.com/davidsebas348-hub/Text343/refs/heads/main/Text343.lua"
+    ["CAMBIAR FPS"] = {
+        variable = "FPS",
+        url = "https://raw.githubusercontent.com/davidsebas348-hub/Cambiar_FPS/refs/heads/main/.lua"
     },
 
     ["POWER"] = {
@@ -1048,7 +1048,7 @@ local function createMenuButton(parent,text,y,callback)
 
     textGlow.Transparency = 0.2
 
-    textGlow.Color = Color3.fromRGB(255,255,255)
+    textGlow.Color = Color3.fromRGB(0,0,0)
     -- PONER ESTO SI QUIERES QUE LOS BORDES SEAN DEL COLOR DEO TEXTO
     -- configuredColor
     --   or Color3.fromRGB(255,255,255)
@@ -1138,14 +1138,6 @@ local function createMenuButton(parent,text,y,callback)
                     "TextGlow"
                 )
 
-            if oldGlow then
-
-                oldGlow.Color =
-                    oldColor
-                    or Color3.fromRGB(255,255,255)
-
-            end
-
         end
 
         --==================================================
@@ -1160,18 +1152,12 @@ local function createMenuButton(parent,text,y,callback)
             b.TextColor3 =
                 configuredColor
 
-            textGlow.Color =
-                configuredColor
-
         else
 
             b.BackgroundColor3 =
                 Color3.fromRGB(0,0,0)
 
             b.TextColor3 =
-                Color3.fromRGB(255,255,255)
-
-            textGlow.Color =
                 Color3.fromRGB(255,255,255)
 
         end
@@ -1660,8 +1646,8 @@ local menuData = {
     },
 
     ["FPS"] = {
-
-        "Fps Boost",
+        "AUMENTAR LOS FPS",
+        "QUITAR LOS EFECTOS",
         "CAMBIAR FPS",
 
     },
