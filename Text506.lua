@@ -1648,7 +1648,7 @@ local menuData = {
     },
 
     ["FPS"] = {
-        "BAJAR LOS GRÁFICOS,
+        "BAJAR LOS GRÁFICOS",
         "QUITAR LOS EFECTOS",
         "CAMBIAR FPS",
 
