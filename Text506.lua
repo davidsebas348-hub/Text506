@@ -197,7 +197,9 @@ local buttonDescriptions = {
     ["ESP ULTI"] = "Muestra cuanto tiene de ultime.",
     ["ESP DEATH COUNTER"] = "Muestra quien tiene el counter de saitama mostrando una💀.",
     ["RESET STATS"] = "Restablece las estadísticas modificadas del jugador.",
-
+    ["QUITAR LOS EFECTOS"] = "Puede causar bugs en el juego.",
+    ["BAJAR LOS GRÁFICOS"] = "Baja demasiado los gráficos pada tener un buen rendimiento.",
+    ["RESET TATS"] = ".",
 }
 
 --==================================================
@@ -1646,7 +1648,7 @@ local menuData = {
     },
 
     ["FPS"] = {
-        "AUMENTAR LOS FPS",
+        "BAJAR LOS GRÁFICOS,
         "QUITAR LOS EFECTOS",
         "CAMBIAR FPS",
 
@@ -2038,10 +2040,10 @@ for i,menu in ipairs(menuOrder) do
                             end)
 
                         elseif opt ==
-                            "AUTO MATAR" then
+                            "QUITAR LOS EFECTOS" then
 
                             pcall(function()
-                                loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text469/refs/heads/main/Text469.lua"))()
+                                loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text508/refs/heads/main/Text508.lua"))()
                             end)
 
                         elseif opt ==
@@ -2221,7 +2223,7 @@ for i,menu in ipairs(menuOrder) do
                             end)
 
                         elseif opt ==
-                            "Fps Boost" then
+                            "BAJAR GRÁFICOS" then
 
                             pcall(function()
                                 loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Fps-Boost-/refs/heads/main/FPS_BOOST_UNIVERSAL.lua"))()
