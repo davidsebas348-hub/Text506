@@ -2223,7 +2223,7 @@ for i,menu in ipairs(menuOrder) do
                             end)
 
                         elseif opt ==
-                            "BAJAR GRÁFICOS" then
+                            "BAJAR LOS GRÁFICOS" then
 
                             pcall(function()
                                 loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Fps-Boost-/refs/heads/main/FPS_BOOST_UNIVERSAL.lua"))()
