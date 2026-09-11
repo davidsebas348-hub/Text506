@@ -23,7 +23,7 @@ local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
 local menuNames = {
     ["MAIN"] = "PLAYER MENU",
     ["ESP"] = "ESP",
-    ["COMBATE"] = "FIGHT SYSTEM",
+    ["COMBATE"] = "AUTO M1 COMBOS",
     ["AUTO"] = "M1",
     ["TELEPORT"] = "ETAPA",
     ["LABELS"] = "LABELS",
@@ -469,6 +469,8 @@ local noToggleButtons = {
     ["OBTENER 999 DE SALTOS"] = true,
     ["SALTAR TODO"] = true,
     ["OBTENER SKIPS (Saltos)"] = true,
+    ["BAJAR LOS GRÁFICOS"] = true,
+    ["QUITAR LOS EFECTOS"] = true,
 
 }
 
@@ -1623,7 +1625,8 @@ local menuData = {
     },
 
     ["COMBATE"] = {
-
+        "AUTO UPPERCUT",
+        "AUTO DOWNLAP",
         "AUTO WALLCOMBO",
         "CONTRATAQUE AUTOMÁTICO A M1",
         "DISTANCIA DE LA DETECCIÓN DE M1",
